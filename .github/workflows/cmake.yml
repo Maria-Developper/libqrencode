@@ -12,7 +12,9 @@ jobs:
     # well on Windows or Mac.  You can convert this to a matrix build if you need
     # cross-platform coverage.
     # See: https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow#configuring-a-build-matrix
-    runs-on: ubuntu-latest
+    #runs-on: ubuntu-latest
+    #mgc: this is a test:
+    runs-on: macos-latest
 
     steps:
     - uses: actions/checkout@v2
